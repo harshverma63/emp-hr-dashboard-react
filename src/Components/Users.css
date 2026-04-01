@@ -851,7 +851,7 @@ h4.popUpTeamMemberName {
 }
 
 @media (max-width: 580px) {
-  .container { padding: 0 1.8rem; }
+  .container { padding: 0 1.8rem!important; }
 
   .card-memo {
     grid-template-columns: 1fr;
@@ -877,4 +877,209 @@ h4.popUpTeamMemberName {
         display: block;
                 padding: 20px;
     }
+}
+
+
+/* ─── TABLET  (max 900px) ──────────────────────────────────── */
+@media (max-width: 900px) {
+
+  .loginForm {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .startingPopUpContainer {
+    width: 80%;
+  }
+
+  .teamMember {
+    width: 45%;
+  }
+
+  .EMPinfo-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .searchContainer input {
+    width: 55%;
+  }
+
+  .sideMenuContainer {
+    width: 35%;
+  }
+
+  .sideMenuContainer li button {
+    padding: 1rem 3rem;
+  }
+}
+
+
+/* ─── MOBILE  (max 580px) ──────────────────────────────────── */
+@media (max-width: 580px) {
+
+  .loginForm {
+    width: 95%;
+    max-width: 95%;
+    padding: 1.2rem 0.4rem 1.8rem;
+  }
+
+  .loginForm form {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .loginForm h1 {
+    font-size: clamp(2.8rem, 8vw, 3.8rem);
+  }
+
+  .startingPopUpContainer {
+    width: 95%;
+    padding: 16px;
+  }
+
+  .topHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .searchContainer input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .sideMenuContainer {
+    width: calc(100% - 40px);
+    right: 20px;
+    padding: 20px;
+  }
+
+  .sideMenuContainer li button {
+    padding: 0.85rem 2rem;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .EMP.headerRight {
+    align-items: center;
+        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+  }
+  .mainLgo{
+    width: 100%;
+}
+
+  .EMP.userName {
+    font-size: 2.2rem;
+  }
+
+  .EMPinfo-list {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+    padding: 2rem 0 4rem;
+  }
+
+  .EMPcard-memo {
+    padding: 2rem 0 4rem;
+  }
+
+  .EMP.footerAddress {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .popUpOverlay {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .popUpContainer {
+    padding: 16px;
+    flex-direction: column;
+  }
+
+  .popUpContainer h3 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+  }
+
+  .popUpTeamMemberContainer {
+    height: auto;
+    max-height: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    padding: 0;
+  }
+
+  .teamMember {
+    width: 100%;
+  }
+
+  h4.popUpTeamMemberName {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .formBottomBTN {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formBottomBTN .fieldContainer {
+    width: 100%;
+  }
+
+  .fieldContainer .maps-link {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+/* ─── SMALL MOBILE  (max 380px) ───────────────────────────── */
+@media (max-width: 380px) {
+
+  .container {
+    padding: 0 1.2rem;
+  }
+
+  .loginForm form {
+    padding: 14px;
+    gap: 14px;
+  }
+
+  .loginForm input {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .loginForm label {
+    font-size: 15px;
+  }
+
+  .mainLogo {
+    font-size: 20px;
+  }
+
+  .sideMenuContainer {
+    width: calc(100% - 24px);
+    right: 12px;
+    padding: 16px;
+  }
+
+  .popUpContainer h3 {
+    font-size: 1.8rem;
+  }
 }

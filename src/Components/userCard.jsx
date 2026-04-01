@@ -58,9 +58,10 @@ export const UserCard = ({ curUser, handleTeamPopUp }) => {
                     )}
 
                     {curUser.isManager && (
-                        <div className="info-row">
+                        <div className="info-row teamBTN">
+                            <span className="info-icon">☏</span>
                             <span className="info-icon info-icon-temMember">Check Team Memebers</span>
-                            <button className='maps-link' onClick={() => handleTeamPopUp(curUser.teamMembers)}>Click Here</button>
+                            <button className='maps-link' onClick={() => handleTeamPopUp(curUser.teamMembers)}>Team</button>
                         </div>
                     )}
 

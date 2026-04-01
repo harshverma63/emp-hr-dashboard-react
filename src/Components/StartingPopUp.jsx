@@ -1,4 +1,3 @@
-// impor
 
 export const StartingPopUp = ({setStartingPopUp}) => {
 
