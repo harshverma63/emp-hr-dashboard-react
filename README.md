@@ -1,7 +1,7 @@
 🚀 Employee & HR Dashboard (React v-19)
 A role-based Employee & HR Management Dashboard built with React, demonstrating authentication logic, state management, and dynamic UI rendering using real-world data scenarios. A practical React project showcasing core frontend skills, problem-solving, and real-world application structure.
 
-Live Demo: [https://emp-hr-dashboard-react.vercel.app](https://emp-hr-dashboard-react.vercel.app/)
+Live Demo: https://emp-hr-dashboard-react.vercel.app/
 
 Login Credential File:
 
@@ -12,9 +12,7 @@ Password: hr@secure
 Employee Logins (Read the below Note):
 Employee ID: EMP0001
 Password: admin
-
 NOTE:
-
 1. For more employee login just increase the last digit in the Employee ID and password is "admin" for all the users.
 2. You can acces employees from EMP0001 to EMP0100 using the same password.
 
